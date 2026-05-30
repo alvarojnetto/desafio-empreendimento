@@ -148,28 +148,13 @@ Para viabilizar a estratégia desenhada na visão de futuro da organização, es
 ### Objetivos de Curto e Médio Prazo (Anos 1 a 3)
 
 
-    * **Adoção e Penetração de Mercado:** Alcançar a marca de 10.000 downloads ativos das ferramentas de software e projetos de hardware IoT até o final do segundo ano de operação, validando a usabilidade da plataforma no mercado de segurança cibernética e tomada de decisão.
-    * **Criação de Comunidade:** Consolidar uma comunidade ativa de desenvolvedores e criadores de conteúdo com, pelo menos, 500 membros engajados em fóruns oficiais e produção de documentação técnica até o final do terceiro ano.
-    * **Homologação do Produto:** Desenvolver, testar e colocar em ambiente de produção estável 3 variações de dispositivos de hardware IoT focados em acionamento resiliente de alertas até o décimo oitavo mês de atividade da empresa.
+    **Adoção e Penetração de Mercado:** Alcançar a marca de 10.000 downloads ativos das ferramentas de software e projetos de hardware IoT até o final do segundo ano de operação, validando a usabilidade da plataforma no mercado de segurança cibernética e tomada de decisão.
+    **Criação de Comunidade:** Consolidar uma comunidade ativa de desenvolvedores e criadores de conteúdo com, pelo menos, 500 membros engajados em fóruns oficiais e produção de documentação técnica até o final do terceiro ano.
+    **Homologação do Produto:** Desenvolver, testar e colocar em ambiente de produção estável 3 variações de dispositivos de hardware IoT focados em acionamento resiliente de alertas até o décimo oitavo mês de atividade da empresa.
 
 
 ### Objetivos de Longo Prazo (Anos 4 e 5)
 
 
-    * **Monetização de Grandes Clientes:** Converter a ampla adoção do ecossistema em receita, conquistando uma carteira de, no mínimo, 50 grandes corporações integradas ao modelo de licenciamento pago até o final do quarto ano.
-    * **Liderança e Referência de Mercado:** Atingir o faturamento bruto anual de R$ 5 milhões e estabelecer a marca como a maior referência nacional em sistemas de comunicação estratégica para mitigação de riscos cibernéticos até o encerramento do quinto ano de operação.
-
-
-
-## 📚 Referências
-
-
-[label={[\arabic*]}] % Requer \usepackage{enumitem} no preâmbulo
-    * LENGLER, Fernando Ramos. \textbf{Sistemas de inovação e empreendedorismo} / Fernando Ramos Lengler. Florianópolis : SENAI/SC, 2022. 103 p. il. color.
-    * GOOGLE. \textbf{Gemini}: assistente de inteligência artificial. Versão atual. [S. l.]: Google, 2024. Disponível em: [https://google.com](https://google.com). Acesso em: 30 mai. 2024.
-
-    * LAMPORT, Leslie. \textbf{LaTeX}: a document preparation system: user's guide and reference manual. 2. ed. Massachusetts: Addison-Wesley, 1994.
-
-    * MOOLENAAR, Bram. \textbf{Vim documentation}: help.txt. Versão 9.1. [S. l.]: Vim, 2024. Disponível em: [https://vimhelp.org](https://vimhelp.org). Acesso em: 3 mai. 2024.
-
-
+    **Monetização de Grandes Clientes:** Converter a ampla adoção do ecossistema em receita, conquistando uma carteira de, no mínimo, 50 grandes corporações integradas ao modelo de licenciamento pago até o final do quarto ano.
+    **Liderança e Referência de Mercado:** Atingir o faturamento bruto anual de R$ 5 milhões e estabelecer a marca como a maior referência nacional em sistemas de comunicação estratégica para mitigação de riscos cibernéticos até o encerramento do quinto ano de operação.
