@@ -1,0 +1,54 @@
+
+\subsection{Compreensão do sistema criptográfico}
+
+\vspace{0.5cm}
+
+\begin{figure}[h] % Ambiente figure com opção de posição [h]ere
+    \centering % Centraliza a figura
+    \includegraphics[width=0.9\textwidth]{/home/alvaro/Imagens/Computacao/Sistema_Criptografico.png}
+    % Ajusta largura para 50%
+    \caption{Sistema criptográfico.}
+    \label{fig:sist_crip}
+\end{figure}
+
+\vspace{0.5cm}
+
+O sistema criptográfico que trabalharemos (Figura \ref{fig:sist_crip}) 
+funcionará da seguinte maneira:
+
+\begin{enumerate}
+
+    \item Um transmissor cria um mensagem que é uma sequência de caracteres.
+    \item Cada quatro caracteres da mensagem compõem uma matriz quadrada $2 \times 2$ 
+        que chamaremos de $\textit{SENTENCA}$. Note que serão enviados somente 
+        quatro caracteres da mensagem por vez, ou seja, a mensagem será 
+        transmitida em grupos pequenos de somente quatro caracteres que chamaremos de $\textit{SENTENCA}$.
+    \item Cada termo da matriz de caracteres $\textit{SENTENCA}$ é usado como 
+        argumento da função $\textit{codificar}$ que o transformará em um número, 
+        formando assim a matriz numérica $\textit{FRASE}$, $2 \times 2$. Observe que a matriz 
+        $\textit{FRASE}$ é simplesmente a imagem da matriz $\textit{SENTENCA}$ na função $\textit{codificar}$
+         e que a função $\textit{codificar}$ deve ser injetora, para que cada matriz $\textit{FRASE}$ 
+        seja gerada por somente uma matriz $\textit{SENTENCA}$.
+    \item O par ordenado de matrizes composto pela matriz numérica 
+        $\textit{FRASE}$ e outra matriz numérica chamada de $\textit{COD}$, $2 \times 2$, é 
+        usado como argumento da função $\textit{criptografar}$. Essa função multiplicará 
+        as duas matrizes do argumento e dará como resposta a matriz numérica $\textit{FRASECOD}$, $2 \times 2$.
+    \item A matriz $\textit{FRASECOD}$ trafega pelo canal de transmissão até o 
+        local do receptor.
+    \item Já no computador do receptor, o par ordenado de matrizes composto 
+        pela matriz numérica $\textit{FRASECOD}$ e outra matriz numérica 
+        chamada de $\textit{DECOD}$, $2 \times 2$,  é usado como argumento da função 
+        $\textit{descriptografar}$. Essa função multiplicará as duas matrizes do argumento e dará como resposta 
+        a mesma matriz numérica $\textit{FRASE}$ que foi enviada pelo transmissor. 
+        Observe que, para que isso aconteça, a matriz $\textit{DECOD}$ deve ser 
+        a inversa da matriz $\textit{COD}$.
+    \item A matriz numérica $\textit{FRASE}$ é usada como argumento da função 
+        $\textit{decodificar}$ que a transformará de volta na matriz de caracteres 
+        $\textit{SENTENCA}$, a mesma gerada pelo transmissor. 
+        Observe que, para que isso aconteça, a função $\textit{decodificar}$ 
+        deve ser a inversa da função $\textit{codificar}$ usada pelo transmissor.
+    \item Finalmente, os caracteres de cada matriz $\textit{SENTENCA}$ são reorganizados para 
+        formar a mensagem original que será entregue ao receptor.
+
+\end{enumerate}
+
